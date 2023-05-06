@@ -40,5 +40,5 @@ jobs:
             amitgadhia/typebot-viewer:${{ github.sha }}
             amitgadhia/typebot-viewer:custom-tag
           build-args: |
-            SCOPE=Viewer
+            SCOPE=viewer
           file: Dockerfile
